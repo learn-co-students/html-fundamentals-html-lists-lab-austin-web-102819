@@ -71,7 +71,7 @@ categories and one or more items in _each_:
       <li>Grilled Cheese</li>
     </ul>
   </li>
-  <li>Snacks
+  <li>Snacks <!--Snacks is missing a <ul> tag --->
     <li>Nacho Cheese French Fries</li>
     <li>Cheese and crackers</li>
   </li>
@@ -102,7 +102,7 @@ us to easily display related and nested content in a readable format.
 
 The first part of this challenge is to make the first 2 tests pass by:
 
-1. Creating an unordered list 
+1. Creating an unordered list
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
@@ -176,7 +176,7 @@ following example will be displayed the same as the previous:
 
 To complete the challenge write the necessary HTML to pass the tests:
 
-3. Create an ordered list 
+3. Create an ordered list
 4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
@@ -188,7 +188,7 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 fry for 2 minutes`
 
 ***
-Once you've written an ordered list that displays these 5 steps correctly, run `learn` 
+Once you've written an ordered list that displays these 5 steps correctly, run `learn`
 to see the tests pass.
 ***
 
@@ -203,6 +203,3 @@ remove the bullets, make them line up horizontally, but in our HTML they will
 still be organized and easy to read.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
-
-
-
